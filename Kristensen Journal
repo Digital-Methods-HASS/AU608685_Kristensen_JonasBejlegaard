@@ -1,0 +1,90 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Digital Methods: Learning Journal Template}
+\author{Jonas Bejlegaard Kristensen}
+\date{Autumn 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Today's Date 6/11/2019}
+
+
+\section{06/11 2019}
+\subsection{Thoughts / Intentions}
+{12.40}
+We thought that that we could not figure it out, but decided to try anyway.
+
+You cannot give up without trying -  especially not regarding digital methods which is new to us.
+
+
+\subsection{Action}
+(13.05)
+I sat down with Kerthan to make the assignments due to tomorrow together with him, as we are both novices in computing. We opened all the files we are to use in order to make the assignments properly.
+
+We opened Overleaf to write our log and then opened Regex101 to get started. Excercises 3 and 4 are opened and we are ready to get started.
+
+{13:13}:  Opened Regular expessions site to know which expressions can help me solve my problem. 
+
+{13.20}: In order to get the words in alphabetical order we typed in (\w+) as according to our regular expression it will find any part of word character. After that we typed in (\s+) as that matches any space, tab or newline . -  Nothing happens
+
+ {13.28}: Still nothing
+
+ {13.32} : Tried with hard brackets. Initially it found matches with [\w+] but any further typing said no match or pattern error
+ 
+ {13.37}: Realized it was better to start with assigment 3 rather than 4.
+Tried again, same typing -  (\w+)(\s+) and we got 572 hits right away
+ 
+ In the substitute frame I wrote "$1" and then suddenly everything was in alphabetiv order.
+ 
+ (14.14) Having realized that not all stopwords had been marked -  We tried various codes which did not work. After consulting Max he told us some tricks. After typing in ([a-zæøå]+)|\d we got 598 which matched with all the words and letters.
+ When we still had the same in the substutute section, we have succesfully transformed a stoplist for Voyant to one compatible with R.
+ 
+{14.21} Start on assignemt 4 by copying the R stoplist into Regex101
+ 
+ {14.37} After some trial and error we decided to use the same regular expression, but with an added ü. ([a-zæøåü]+)|\d and found that all stopwords were marked with 419. Now begin the hunt for a substitute.
+
+
+(15.09) Tried some comboy-tricks. And it worked! 
+Wrote $1\n for lining them up with one word on each line.
+Then we had a whole lot of , and " which we wanted to get rid off. Then copy pasted it all into an excel file. And substitute "," with space. Now they all disappeared and should be ready to go into voyant.
+
+\textbf{Results}
+We succeded!
+Final Thoughts
+It is incredibly difficult. On the other hand it is easy to see the smart in this. Unfortunatley it is not just something one can learn overnight
+
+\section{26/11 2019}
+(14.06) Intention 
+Doing homework for thurday week 5
+
+(14.07): Looking for what to do and how to do it
+
+(14.12) Found out excactly what to do.
+(14.12) Now we start reading on the link, how to upload my journal into GitHub
+(14.16) Opening the Git Homework link, reading it -  Openeing Slideshow for week 5
+(14.18) - opened Bash and feelings right now is " Now what" - very confused.
+(14.20) Opened Slides for week 3
+(14.26) Opened the link on Github to create a new Public repository. Kerthan did the same. He can press "NEW" - that feature does not appear on my screen.
+Still no idea about Git Bash
+(14.28) Having realized that I had not previously accepted the ivitation to join the group on GitHub - I now accepted it and now the "NEW" block turned up. Miracles happens today apparantly.
+
+(14.38) Following the guide as written in the description.
+Succesfully created a new public repository. :) Simultaneously with Kerthan. Vibes are good.  Still no idea about BASH Though
+We found out that we are the first ones to do it succesfully. High-Fived and bragged to each other that everyone else had been overtaken by the guys most probably least interested in computing. We can do this! Vibes are extremely good.
+
+(14.54) After cleaning some folders I might have done it.
+Should be in " Skrivebord" - Folder: "Digitale Metoder" and should be the top file in there.
+
+(15.00) After finally to use bash for. We copied URL to our folder in the repository. Then wrote ls -  and now it appear that we succeded. Vibes are good
+
+
+
+
+
+
+
+
+\end{document}
